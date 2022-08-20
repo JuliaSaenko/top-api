@@ -16,6 +16,6 @@ jobs:
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/F/top-api/top-api
-          username: ${{ secrets.DOCKER_HUB_USERNAME }
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
           tags: "dev"
